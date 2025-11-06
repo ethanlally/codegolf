@@ -1,0 +1,1 @@
+void main(){for(int i=2;i++<1e3;){int r=0,t=i;for(;t>0;r=r*10+t%10,t/=10);boolean f=true;for(int j=2;j*j<=i|j*j<=r&f;j++)if(i%j<1|r%j<1)f=false;if(f&i!=r)IO.println(i);}}

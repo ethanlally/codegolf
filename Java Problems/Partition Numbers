@@ -1,0 +1,1 @@
+void main(){int n;var p=new BigInteger[101];p[0]=BigInteger.ONE;for(int k=0;k++<101;)for(n=k;n<100;n++)p[n]=p[n]==null?p[n-k]:p[n].add(p[n-k]);for(n=0;n<100;)IO.println(p[n++]);}
