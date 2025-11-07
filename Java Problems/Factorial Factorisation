@@ -1,0 +1,1 @@
+void main(){int i=1,j;for(;i++<1001;){for(j=2;j*j<=i&i%j>0;j++);if(j*j>i){int c=0;j=1000;for(;j>0;)c+=j/=i;IO.print((i>2?"*":"")+i+(c>1?"^"+c:""));}}}
