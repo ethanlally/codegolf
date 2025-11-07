@@ -1,0 +1,2 @@
+//tied for first in bytes, short 1 character, not sure how to get it lower
+void main(){IO.print(BigDecimal.TWO.sqrt(new MathContext(1001)));}
