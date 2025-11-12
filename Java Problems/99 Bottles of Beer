@@ -1,0 +1,1 @@
+void main(){String b,c=" of beer",d=" on the wall",e=" bottle",f=" bottles";for(int i=99;i>0;){b=i+e+(i>1?"s":"")+c;IO.println(b+d+", "+b+".\nTake one down and pass it around, "+(--i>0?i+e+(i>1?"s":"")+c:"no more"+f+c)+d+".\n");}IO.println("No more"+f+c+d+", no more"+f+c+".\nGo to the store and buy some more, 99"+f+c+d+".");}
