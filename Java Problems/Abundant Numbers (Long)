@@ -1,1 +1,1 @@
-void main(){for(int i=1,d;i++<1e3;){int a=0;for(d=1;d++<=i/2;)a+=i%d<1?d:0;if(a>i)IO.println(i);}}
+void main(){for(int i=1,d,a;i++<1e3;){for(d=a=0;d++<i;)a+=i%d<1?d:0;if(a>i*2)IO.println(i);}}
