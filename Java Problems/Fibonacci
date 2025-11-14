@@ -1,1 +1,1 @@
-void main(){for(int a=0,b=1,i=0;++i<32;IO.println(a),b+=a,a=b-a);}
+void main(){for(int a=0,b=1;a<1e6;b=a+(a=b))IO.println(a);}
