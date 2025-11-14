@@ -1,0 +1,1 @@
+void main(){int a=0,b=1,c=1,d=50,k,t;IO.println("0/1");for(;c<=50;){k=(50+b)/d;t=k*c-a;k=k*d-b;IO.println(c+"/"+d);a=c;b=d;c=t;d=k;}}
