@@ -1,0 +1,1 @@
+void main(String[]A){for(var a:A){var s=a.replace(" ","");int n=0,L=s.length();for(int j=0;j<L;j++){int d=s.charAt(j)-48;if((j&1)==(L&1))d=d<5?d*2:d*2-9;n+=d;}if(n%10<1)IO.println(a);}}
