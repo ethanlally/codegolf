@@ -1,0 +1,1 @@
+void main(){var v=BigInteger.valueOf(1);for(int n=0;n<100;){var C=v;for(int i=0;i<n;i++)C=C.multiply(v.valueOf(n*2-i)).divide(v.valueOf(i+1));IO.println(C.divide(v.valueOf(++n)));}}
