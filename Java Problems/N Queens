@@ -1,0 +1,1 @@
+void main(){for(int n=3;++n<9;)s(0,new int[n]);}void s(int c,int[]q){int n=q.length,r=0,i;if(c==n){for(int x:q)IO.print(x);IO.println();}else for(;++r<=n;){for(i=0;i<c&&q[i]!=r&Math.abs(q[i]-r)!=c-i;i++);if(i==c){q[c]=r;s(c+1,q);}}}
