@@ -1,0 +1,16 @@
+void main(){var r=" wood,chuck,Peter Piper picked, peck of pickled peppers, she sells, sea,shells,shore, I'm sure".split(",");for(var c:"""
+How much0 would a01 1,
+If a01 could 10?
+A01 would 1 all the0 he could 1
+If a01 would 10.
+
+2 a3.
+A3 2.
+If 2 a3,
+Where's the3 2?
+
+She sells56 by the57,
+The 64 are56,8.
+So if456 on the57,
+Then8457 6.
+""".toCharArray())IO.print(c>47&c<58?r[c-48]:c);}
