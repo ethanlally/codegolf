@@ -1,1 +1,1 @@
-void main(){for(int i=0;i++<51;)if(44<<~Long.bitCount(i)<0)IO.println(i);}
+void main(){for(int i=0;i++<51;)if(Long.bitCount(i)%3!=1)IO.println(i);}
