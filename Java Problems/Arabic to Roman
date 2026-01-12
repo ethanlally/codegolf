@@ -1,0 +1,1 @@
+void main(String[]A){var c="IVXLCDM ".split("");for(var a:A){String r="";for(int n=Integer.parseInt(a),i=0;n>0;n/=10,i+=2)r=(n%5==4?c[i]+c[i+1+n/5%2]:c[i+1].repeat(n/5%2)+c[i].repeat(n%5))+r;IO.println(r);}}
