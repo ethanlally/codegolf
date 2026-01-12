@@ -1,0 +1,1 @@
+void main(){for(int s=0;s++<9;IO.println()){long v=0;for(int i=s;--i>-s;IO.println(" ".repeat(10-s+(i<0?-i:i))+v*v))v=i<0?v/10:v*10+1;}}
