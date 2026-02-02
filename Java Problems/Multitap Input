@@ -1,0 +1,1 @@
+void main(String[]A){for(var s:A){for(int p=0,n=0,i=0;i<=s.length();p=n)n=i<s.length()?s.charAt(i++):1;if(p>32)IO.print(p<49?' ':(char)(p*3-85+p/56+n));}}
